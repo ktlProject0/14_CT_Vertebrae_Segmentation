@@ -1,4 +1,4 @@
-# 14_CT_Vertebrae_Segmentation
+# KTL_project_14_CT_Spine_Segmentation
 
 ## Data Description
 
@@ -8,7 +8,23 @@
 3. 성능 평가 데이터 (/Data/Test/...)
    - 원본 CT 영상 (/Data/Test/rawdata/sub-verse###/CT.nii)
    - 척추 분할 마스크 (/Data/Test/derivatives/sub-verse###/msk.nii.gz)
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+- Other dependencies can be installed using `environment.yml`
+  
+## Getting Started
+### Installation
 
+- Clone this repo:
+```bash
+git clone https://github.com/ktlProject0/KTL_project_14_CT_Spine_Segmentation.git
+cd KTL_project_14_CT_Spine_Segmentation
+```
+ - You can create a new Conda environment using `conda env create -f environment.yml`.
+   
 ## Code Description
 ## Training.ipynb
   - 네트워크 학습 코드
